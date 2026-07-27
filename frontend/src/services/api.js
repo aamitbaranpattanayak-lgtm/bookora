@@ -1,7 +1,7 @@
 import axios from "axios";
 import { initialCategories, initialEvents, initialBookings } from "./mockData.js";
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://bookora-backend-7juo.onrender.com/api";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
