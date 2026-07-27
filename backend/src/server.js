@@ -13,5 +13,5 @@ connectDB();
 
 // Start Server
 app.listen(PORT, () => {
-  console.log(`🚀 Server is running on http://localhost:${PORT}`);
+ console.log(`🚀 Bookora backend running on port ${PORT}`);
 });
